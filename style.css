@@ -1,0 +1,97 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.head-section {
+    display: flex;
+    background-image: url(images/head.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.mid-section {
+    display: flex;
+    background-image: url(images/mid.jpg);
+    background-repeat: no-repeat;
+
+}
+.blog-section{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.footer-section {
+    background-color: rgb(9, 9, 10);
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    color: gray;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(61, 60, 60);
+    text-transform: capitalize;
+}
+
+.header-img {
+    width: 85%;
+    box-align: right;
+    text-align: right;
+    align-content: right;
+}
+
+p {
+    color: gray;
+    text-align: justify center;
+}
+
+.button-link {
+    padding: 15px 30px 15px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(175, 36, 11), rgb(38, 15, 250));
+    border-radius: 10px;
+}
+
+.mid-img {
+    width: 50%;
+    box-align: right;
+    padding-left: 20%;
+}
+
+.mid-text {
+    padding-right: 15%;
+}
+
+.blog-header {
+    text-align: center;
+    padding-top: 50px;
+}
+.blog-text{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+.blog-post {
+    width: 33.33%;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 5px rgb(153, 152, 152);
+}
+.blog-post img {
+    width: 80%;
+    padding: 30px;
+    border-radius: 20px;
+}
+article {
+    padding: 10px;
+    padding-left: 15px;
+}
